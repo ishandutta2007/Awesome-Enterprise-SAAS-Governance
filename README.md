@@ -63,7 +63,7 @@ Commercial, enterprise-grade cloud-hosted governance platforms sorted in descend
 
 Self-hosted, community-maintained SaaS governance, identity lifecycle, cloud asset discovery, and security posture management frameworks. Sorted in descending order by GitHub stargazers count.
 
-| Project & Repository | Star Badge (Stargazers Link) | Technology Stack | License | Description & Governance Value |
+| Project & Repository | Stars_Badge (Stargazers Link) | Technology Stack | License | Description & Governance Value |
 | :--- | :---: | :--- | :--- | :--- |
 | **[Keycloak](https://github.com/keycloak/keycloak)** | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Java | Apache 2.0 | Standard-bearer for open-source Identity & Access Management (IAM), User Federation, Single Sign-On (SSO), OpenID Connect/SAML 2.0, and centralized identity governance. |
 | **[Authelia](https://github.com/authelia/authelia)** | [![Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers) | Go | Apache 2.0 | Lightweight authentication and authorization server providing 2FA/MFA, single sign-on, and security proxy gating for web apps and internal SaaS endpoints. |
@@ -141,7 +141,7 @@ Contributions are warmly welcomed! If you would like to submit a new SaaS govern
 
 1. Fork this repository.
 2. Create your feature branch (`git checkout -b feature/add-new-governance-tool`).
-3. Add the project with required details (pricing/free tier limits, company valuation/scale, or GitHub star count badges).
+3. Add the project with required details (pricing/free tier limits, company valuation/scale, or GitHub Stars_Count badges).
 4. Commit your changes (`git commit -m "docs: add new SaaS governance solution"`).
 5. Push to the branch (`git push origin feature/add-new-governance-tool`).
 6. Open a Pull Request.
