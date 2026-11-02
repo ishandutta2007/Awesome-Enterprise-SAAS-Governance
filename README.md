@@ -1,164 +1,152 @@
-# Awesome-Enterprise-SAAS-Governance
+# 🌐 Awesome Enterprise SaaS Governance 🛡️
 
-# Awesome Enterprise SaaS Governance
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://github.com/ishandutta2007/Awesome-Enterprise-SAAS-Governance"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-> A curated list of top Enterprise SaaS Governance platforms — both SaaS/Hosted commercial solutions and open-source alternatives for SaaS discovery, spend optimization, identity governance, and security posture management.  
-> 🌟 Star this repo if you find it useful! 🌟
+> **A curated, SEO-optimized list of top Enterprise SaaS Governance platforms, SaaS Management Platforms (SMP), SaaS Security Posture Management (SSPM), and Identity Governance & Administration (IGA) solutions — featuring both leading commercial hosted vendors and open-source alternatives for SaaS discovery, shadow IT detection, spend optimization, license reclamation, and automated compliance.** 📊🔐
+>
+> 🌟 *Star this repository to stay up-to-date with emerging tools in SaaS governance and security!* 🌟
 
 ---
 
 ## 📋 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Atlassian Enterprise Administration](#atlassian-enterprise-administration)
-  - [Torii](#torii)
-  - [BetterCloud](#bettercloud)
-  - [Zylo](#zylo)
-  - [Productiv](#productiv)
-  - [CoreView](#coreview)
-  - [Snow Software](#snow-software)
-  - [LeanIX](#leanix)
-  - [SailPoint](#sailpoint)
-  - [Lumos](#lumos)
-- [Open-Source Software](#-open-source-software)
-  - [SaaS Security Posture & Rationalization Dashboard](#saas-security-posture--rationalization-dashboard)
-  - [Aperio](#aperio)
-  - [Evolveum midPoint](#evolveum-midpoint)
-  - [Apache Syncope](#apache-syncope)
-  - [ElectricEye](#electriceye)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Feature Comparison Matrix](#-feature-comparison-matrix)
+- [📈 Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 🌐 Sector Overview & Market Dynamics
 
-Commercial, cloud-hosted Enterprise SaaS Governance platforms. These are not open-source but are included as reference points for feature comparison.
+The global **SaaS Management Platform (SMP) and SaaS Governance** market is estimated at **$1.8B to $2.5B** in 2024 and is projected to surpass **$7.5B by 2032**, expanding at a robust **CAGR of ~16.5%**, propelled by explosive multi-SaaS sprawling, hybrid workforces, and autonomous shadow AI adoption. According to Gartner, organizations actively waste 25% to 30% of their annual SaaS spend on unused, underutilized, or forgotten subscriptions, while unaware of up to 50% of SaaS and AI integrations operating across their estates.
 
-### Atlassian Enterprise Administration
-**Type:** Centralized administration for Atlassian Cloud  
-Atlassian Cloud Enterprise provides a centralized admin hub for managing all users, products, and sites across the organization. Organizations and domain verification enable administrators to view, manage, and deprovision all Atlassian cloud accounts associated with verified domains. Features include SAML SSO, audit logs, data residency controls, automated user provisioning/deprovisioning, sandbox environments for testing, and Atlassian Analytics with Data Lake for cross-product insights [citation:5][citation:11].  
-**Best for:** Organizations standardized on Atlassian products needing centralized governance, security policies, and compliance controls across their Atlassian estate.
+The sector remains **moderately fragmented** rather than a winner-take-all monopoly:
+- **Enterprise SAM & Cloud Heavyweights** (*Flexera/Snow, SAP LeanIX*) address full software lifecycle, hybrid enterprise architecture, and enterprise asset compliance.
+- **Dedicated SaaS Management Platforms (SMP)** (*Torii, Zylo, BetterCloud, Zluri*) concentrate primarily on continuous shadow IT discovery, spend optimization, FinOps license harvesting, and automated onboarding/offboarding workflows.
+- **Identity & Access Governance (IGA)** (*SailPoint, Lumos*) enforce strict identity entitlement boundaries, role-based access control (RBAC), and recurring access certifications.
+- **Open-Source Innovations** (*Keycloak, Authentik, Teleport, OPA, Steampipe, CloudQuery*) allow cost-conscious engineering teams to self-host posture audits, asset inventories, and unified IAM/RBAC federation.
 
-### Torii
-**Type:** SaaS management platform  
-Provides SaaS discovery and shadow IT detection, onboarding/offboarding automation, license optimization, budget tracking, and vendor management. Integrates with key business applications to surface usage data and identify underutilized subscriptions [citation:6][citation:12].  
-**Best for:** IT and finance teams wanting comprehensive SaaS visibility with automated lifecycle workflows.
+---
 
-### BetterCloud
-**Type:** SaaS management and IT automation  
-A SaaS management platform for IT teams offering centralized app management, automation of IT tasks, role and permission control, reporting, and API integrations. Focused on automating user lifecycle workflows and securing SaaS file sharing [citation:6][citation:13].  
-**Best for:** IT operations teams prioritizing workflow automation and granular permission management across SaaS applications.
+## 🟦 SaaS / Commercial Hosted Platforms
 
-### Zylo
-**Type:** SaaS management and optimization  
-Provides SaaS discovery, shadow IT detection, usage analytics, spend optimization, and renewal management. Helps organizations understand their SaaS portfolio and identify cost savings opportunities [citation:6].  
-**Best for:** Finance and procurement teams focused on SaaS spend visibility and vendor negotiation leverage.
+Commercial, enterprise-grade cloud-hosted governance platforms sorted in descending order by company scale (market valuation / parent enterprise valuation / annual revenue).
 
-### Productiv
-**Type:** SaaS intelligence and engagement analytics  
-Offers SaaS application management with a focus on engagement analytics—measuring how deeply applications are actually used versus simply licensed. Enables data-driven procurement and intelligent automation for IT, finance, and procurement teams [citation:6][citation:12].  
-**Note:** Productiv's domain now redirects to a logistics company, indicating the product may no longer be offered under that name [citation:13].  
-**Best for:** Organizations wanting deep engagement metrics to inform renewal and consolidation decisions.
-
-### CoreView
-**Type:** Microsoft 365 management platform  
-Specializes in Microsoft 365 administration with IT automation, license management, security monitoring, and ServiceNow integration. Provides granular visibility and control over M365 tenants, including mailbox permissions, Teams governance, and license optimization [citation:12].  
-**Best for:** Microsoft 365-centric organizations needing deep administrative control and license optimization within the M365 ecosystem.
-
-### Snow Software
-**Type:** Software asset management (SAM)  
-Provides comprehensive insights into software, SaaS, hardware, and cloud assets. Helps IT improve performance, enable agility, and manage costs across the full technology estate. Strong on license compliance and optimization across on-premises and cloud software [citation:6].  
-**Best for:** Organizations needing full software asset management coverage spanning traditional software and SaaS.
-
-### LeanIX
-**Type:** Enterprise architecture management with SaaS intelligence  
-Part of SAP, LeanIX provides enterprise architecture management with SaaS discovery and application portfolio rationalization. Helps organizations map business capabilities to applications, identify redundancies, and plan technology roadmaps.  
-**Best for:** Enterprise architecture teams wanting to align SaaS portfolio with business strategy and reduce technical debt.
-
-### SailPoint
-**Type:** Identity governance and administration (IGA)  
-A leader in identity governance, providing access certifications, role management, policy enforcement, and lifecycle management across enterprise applications. Ensures that SaaS access is granted, reviewed, and revoked according to policy [citation:10].  
-**Best for:** Security and compliance teams needing rigorous access governance across SaaS and on-premises applications.
-
-### Lumos
-**Type:** SaaS management and identity governance  
-Combines SaaS management with identity governance capabilities. Features include an app store for requesting access, AccessReviewer for periodic access certifications, and App Manager for optimizing application usage. Manages onboarding, workflows, compliance, and identity governance [citation:6][citation:12].  
-**Best for:** Organizations wanting to unify SaaS management with access governance and self-service app requests.
+| Vendor / Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Specific Tier) | Free Tier Limit / Free Trial Days & Limits | Core Focus & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Atlassian Cloud Enterprise](https://www.atlassian.com/enterprise/cloud)** | **~$45B Market Cap** (~$4.4B ARR) | **$4.00/user/month** (Atlassian Guard Standard for centralized SSO/audit logs; Guard Standard included in Enterprise tier) | **30-day free trial** of Atlassian Guard Standard with full SSO & directory sync features; Free Plan available for up to 10 users on core tools (Jira/Confluence) | Centralized admin hub, SSO, automated provisioning, domain verification, and data residency for enterprise Atlassian estates. |
+| **[LeanIX (SAP)](https://www.leanix.net/)** | **~$1.3B Acquisition Valuation** by SAP (~$100M+ ARR) | **~$20,000/year** base tier (priced per application portfolio size rather than user seats, supporting unlimited users) | **No free trial** for enterprise commercial edition; academic edition available for universities and non-profits upon request | Enterprise architecture management, SaaS intelligence, and business capability portfolio rationalization. |
+| **[SailPoint](https://www.sailpoint.com/)** | **~$12.8B Public Valuation** (~$1.1B ARR) | **$60 - $90/managed identity/year** (typical negotiated enterprise rates $30–$55/identity/year; base packages start at ~$75,000/year) | **No public free trial**; guided enterprise proof of concept (PoC) and health checks available via sales | Enterprise identity governance and administration (IGA), continuous access reviews, role lifecycle management, and separation of duties. |
+| **[Snow Software (Flexera)](https://www.flexera.com/products/snow-software)** | **~$500M Acquisition Valuation** by Flexera (~$100M+ ARR) | **~$15,000 - $25,000/year** starting contract (custom quote based on managed device/cloud/SaaS endpoints) | **No free trial** for full Snow License Manager; 14-day to 30-day targeted free trial available for Snow Commander (hybrid cloud management) | Comprehensive Software Asset Management (SAM), SaaS spend tracking, and audit-ready license compliance across hybrid infrastructures. |
+| **[BetterCloud](https://www.bettercloud.com/)** | **~$210M - $300M Valuation** (~$55M ARR) | **$0/month** (Spend Optimization Basic tier); paid automation tiers start at **~$3.00 - $6.00/user/month** (~$10,000/yr min) | **Free Plan forever** for Spend Optimization Basic; **14-day to 21-day free trial** for File Governance & Google Workspace security modules | SaaS operational management, automated zero-touch onboarding/offboarding workflows, and granular permission enforcement. |
+| **[Lumos](https://www.lumos.com/)** | **~$298M Valuation** (~$15M - $25M ARR) | **~$27,000/year** platform baseline (scaled according to connected user headcount and integration modules) | **No public free trial or free forever plan**; proof of concept (PoC) evaluation available upon scheduling an enterprise sales consultation | App Store access requests, automated access reviews (AccessReviewer), and unified identity governance for modern IT teams. |
+| **[Torii](https://www.toriihq.com/)** | **~$200M Valuation** (~$18M - $22M ARR) | **$0/month** (Basic Discovery tier for initial browser/SSO tracking); paid tiers start at **~$12,000 - $18,000/year** | **Free tier available** for basic SaaS mapping; **14-day free trial** with access to automated discovery, shadow IT alerts, and workflow builders | Shadow IT discovery, multi-source SaaS tracking, automated onboarding/offboarding, and license waste reclamation. |
+| **[CoreView](https://www.coreview.com/)** | **~$150M - $200M Valuation** (~$18M - $25M ARR) | **~$15,000 - $20,000/year** base agreement (starts at approximately **$2.00 - $4.00/licensed M365 user/month**; unlimited IT admins) | **No self-serve free trial**; free Microsoft 365 environment health check and tenant savings assessment available via demo request | Dedicated Microsoft 365 tenant governance, advanced RBAC delegation, license harvesting, and workflow automation. |
+| **[Zylo](https://zylo.com/)** | **~$100M Valuation** (~$30M - $40M ARR) | **~$25,000 - $35,000/year** base enterprise contract (scaled by total employee count and managed software spend) | **No public free trial or free plan**; custom data intake demonstration and enterprise ROI benchmarking upon request | SaaS spend visibility, contract renewal management, benchmark-driven negotiation intelligence, and FinOps consolidation. |
+| **[Zluri](https://www.zluri.com/)** | **~$80M Valuation** (~$10M - $15M ARR) | **$4.00 - $8.00/user/month** (enterprise contracts typically require a **$10,000/year** minimum threshold) | **14-day free trial** / sandbox proof-of-concept available upon guided onboarding demo; no permanent free tier | Modern SaaS management platform with AI shadow IT/shadow AI detection, automated access provisioning, and contract management. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven SaaS Governance tools. All listed projects offer source code you can deploy on your own infrastructure.
+Self-hosted, community-maintained SaaS governance, identity lifecycle, cloud asset discovery, and security posture management frameworks. Sorted in descending order by GitHub stargazers count.
 
-### SaaS Security Posture & Rationalization Dashboard
-**Stack:** Python (stdlib only) | **License:** MIT  
-A free, self-hosted alternative to Productiv, Zylo, and Torii for SaaS visibility without another SaaS subscription. Ingests SaaS inventory data and produces security posture assessments with actionable cost savings. Detects shadow IT (unapproved tools), flags redundant subscriptions across categories (e.g., Asana + Monday + Trello), scores OAuth integration risks, and calculates consolidation savings. Runs with zero runtime dependencies beyond Python's standard library—`git clone` and `python analyzer.py` is the entire setup. Demo inventory of 29 tools identified $277K in potential savings (22.4% reduction) .  
-**Best for:** Teams wanting immediate SaaS spend and shadow IT visibility without procurement cycles, vendor onboarding, or recurring subscription costs.
-
-### Aperio
-**Stack:** Go / TypeScript / Next.js | **License:** MIT  
-An open-source SaaS Security Posture Management (SSPM) platform for SIEM-native teams. Detects SaaS posture risks, inventories OAuth shadow IT, and streams normalized findings to existing security stacks. Connectors for GitHub, Slack, Google Workspace, Okta, 1Password, Microsoft 365, and Atlassian. Google Workspace detections cover external sharing, super-admin 2SV, recovery emails, auto-forwarding, and domain-wide delegation. Per-user OAuth app scanning with risk scoring based on scope sensitivity. SIEM fanout to Splunk HEC, Panther, Elasticsearch, Datadog Logs, and generic webhooks via a durable outbox. Findings auto-resolve on next sync when signals disappear [citation:15].  
-**Best for:** Security engineers wanting SaaS posture monitoring that feeds into existing SIEM and detection workflows rather than requiring a separate console.
-
-### Evolveum midPoint
-**Stack:** Java | **License:** Apache 2.0  
-The most feature-complete open-source identity governance and administration (IGA) platform. Provides full provisioning, access reviews, role management, organizational structure handling, and RBAC. Concepts map directly to enterprise IGA platforms like SailPoint: identity synchronization from source of truth, lifecycle automation, role-based entitlement assignment, and governance workflows. Steep learning curve but offers self-paced training and solid documentation [citation:10].  
-**Best for:** Organizations building IGA capabilities without commercial licensing, or teams wanting hands-on experience with governance concepts that transfer to commercial platforms.
-
-### Apache Syncope
-**Stack:** Java | **License:** Apache 2.0  
-An open-source Identity and Access Management (IAM) and Identity Governance Administration (IGA) platform. Manages digital identities, user provisioning, authentication, authorization, and access control across enterprise environments. Supports user/group/role/entitlement management, automated provisioning/deprovisioning workflows, RBAC, delegated administration, LDAP/AD/database connectors, SAML 2.0, OIDC, and SCIM. Includes audit logging, compliance reporting, and a web-based admin console. Deployable via Docker [citation:4].  
-**Best for:** Organizations seeking centralized identity governance with automated lifecycle operations and standards-based federation.
-
-### ElectricEye
-**Stack:** Python | **License:** Apache 2.0  
-A multi-cloud, multi-SaaS security posture management and attack surface monitoring CLI tool. Executes 1,196 checks across 100+ cloud and SaaS services including AWS, GCP, Azure, OCI, ServiceNow, Microsoft 365, Salesforce, and Snowflake. Every check maps to 20+ control frameworks including NIST CSF, SOC 2, HIPAA, PCI-DSS, and CIS Benchmarks. Covers 179 asset components through 135 auditors. Uses VirusTotal and Nmap for attack surface monitoring. 1,049 GitHub stars [citation:9].  
-**Note:** Last code push was February 2026 with no activity in the prior 90 days; verify maintenance status before production deployment.  
-**Best for:** Security engineers needing automated configuration auditing and compliance verification across SaaS and cloud platforms without commercial tooling.
+| Project & Repository | Star Badge (Stargazers Link) | Technology Stack | License | Description & Governance Value |
+| :--- | :---: | :--- | :--- | :--- |
+| **[Keycloak](https://github.com/keycloak/keycloak)** | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Java | Apache 2.0 | Standard-bearer for open-source Identity & Access Management (IAM), User Federation, Single Sign-On (SSO), OpenID Connect/SAML 2.0, and centralized identity governance. |
+| **[Authelia](https://github.com/authelia/authelia)** | [![Stars](https://img.shields.io/github/stars/authelia/authelia?style=social&color=white)](https://github.com/authelia/authelia/stargazers) | Go | Apache 2.0 | Lightweight authentication and authorization server providing 2FA/MFA, single sign-on, and security proxy gating for web apps and internal SaaS endpoints. |
+| **[Authentik](https://github.com/goauthentik/authentik)** | [![Stars](https://img.shields.io/github/stars/goauthentik/authentik?style=social&color=white)](https://github.com/goauthentik/authentik/stargazers) | Python / TypeScript | GPL-3.0 | Modern open-source identity provider and SSO gateway featuring flexible policy engines, SCIM provisioning, user self-service portals, and OAuth/OIDC/SAML integrations. |
+| **[Teleport](https://github.com/gravitational/teleport)** | [![Stars](https://img.shields.io/github/stars/gravitational/teleport?style=social&color=white)](https://github.com/gravitational/teleport/stargazers) | Go | AGPL-3.0 | Zero-trust access plane providing cryptographic identity-based access control, session recording, and automated access requests for internal web apps, APIs, and infrastructure. |
+| **[Zitadel](https://github.com/zitadel/zitadel)** | [![Stars](https://img.shields.io/github/stars/zitadel/zitadel?style=social&color=white)](https://github.com/zitadel/zitadel/stargazers) | Go | Apache 2.0 | Turnkey multi-tenant identity infrastructure, authentication platform, and role-based access management with built-in audit trails and self-service capabilities. |
+| **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Go (Rego) | Apache 2.0 | Cloud-native computing foundation general-purpose policy engine enabling unified, context-aware policy enforcement across microservices, Kubernetes, and SaaS applications. |
+| **[Steampipe](https://github.com/turbot/steampipe)** | [![Stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers) | Go / SQL | AGPL-3.0 | Zero-ETL SQL query engine with plugins for Google Workspace, Slack, GitHub, AWS, Azure, and Okta — ideal for instant posture compliance checking and SaaS asset querying. |
+| **[CloudQuery](https://github.com/cloudquery/cloudquery)** | [![Stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers) | Go | MPL-2.0 | High-performance open-source ELT data pipeline extracting cloud assets and SaaS configurations (Okta, GitHub, Zoom) into analytical databases for governance dashboards. |
+| **[Permify](https://github.com/Permify/permify)** | [![Stars](https://img.shields.io/github/stars/Permify/permify?style=social&color=white)](https://github.com/Permify/permify/stargazers) | Go | Apache 2.0 | Open-source authorization-as-a-service inspired by Google Zanzibar for modeling fine-grained relationship-based access control (ReBAC) and RBAC in distributed SaaS architectures. |
+| **[Cerbos](https://github.com/cerbos/cerbos)** | [![Stars](https://img.shields.io/github/stars/cerbos/cerbos?style=social&color=white)](https://github.com/cerbos/cerbos/stargazers) | Go | Apache 2.0 | Decoupled authorization and permission layer that evaluates context-aware access policies written in YAML, delivering sub-millisecond access decisions for enterprise SaaS. |
+| **[ElectricEye](https://github.com/jonrau1/ElectricEye)** | [![Stars](https://img.shields.io/github/stars/jonrau1/ElectricEye?style=social&color=white)](https://github.com/jonrau1/ElectricEye/stargazers) | Python | Apache 2.0 | Multi-cloud and SaaS posture management CLI executing 1,196 checks across 100+ services including ServiceNow, Salesforce, M365, and Snowflake mapped to 20+ regulatory frameworks. |
+| **[Evolveum midPoint](https://github.com/Evolveum/midpoint)** | [![Stars](https://img.shields.io/github/stars/Evolveum/midpoint?style=social&color=white)](https://github.com/Evolveum/midpoint/stargazers) | Java | Apache 2.0 | Leading open-source Identity Governance & Administration (IGA) system featuring automated provisioning, access certification campaigns, and comprehensive RBAC hierarchies. |
+| **[Apache Syncope](https://github.com/apache/syncope)** | [![Stars](https://img.shields.io/github/stars/apache/syncope?style=social&color=white)](https://github.com/apache/syncope/stargazers) | Java | Apache 2.0 | Comprehensive Apache Top-Level Identity & Access Management (IAM) and IGA solution managing identities, SCIM/SAML integration, access policies, and automated lifecycle tasks. |
+| **[Aperio](https://github.com/writer/aperio)** | [![Stars](https://img.shields.io/github/stars/writer/aperio?style=social&color=white)](https://github.com/writer/aperio/stargazers) | Go / Next.js | MIT | Open-source SaaS Security Posture Management (SSPM) engine for SIEM-native teams, detecting OAuth shadow IT, third-party token scopes, and streaming posture events to Splunk/Datadog. |
+| **[SaaS Security Posture Dashboard](https://github.com/CyberEnthusiastic/saas-security-posture)** | [![Stars](https://img.shields.io/github/stars/CyberEnthusiastic/saas-security-posture?style=social&color=white)](https://github.com/CyberEnthusiastic/saas-security-posture/stargazers) | Python (stdlib) | MIT | Standalone zero-dependency Python tool for SaaS spend analysis, shadow IT detection, OAuth risk scoring, and subscription rationalization with instant cost-savings reports. |
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Feature Comparison Matrix
 
-| Software | License | Focus Area | Self-Hosted | Best For |
-|----------|---------|------------|-------------|----------|
-| **Atlassian Enterprise** | Proprietary | Atlassian governance | ❌ | Atlassian-centric orgs |
-| **Torii** | Proprietary | SaaS discovery + lifecycle | ❌ | IT/finance SaaS visibility |
-| **BetterCloud** | Proprietary | IT automation + permissions | ❌ | Workflow automation |
-| **Zylo** | Proprietary | Spend optimization | ❌ | SaaS cost reduction |
-| **Productiv** | Proprietary | Engagement analytics | ❌ | Usage-based decisions |
-| **CoreView** | Proprietary | M365 administration | ❌ | Microsoft 365 estates |
-| **Snow Software** | Proprietary | Full SAM | ❌ | Software + SaaS compliance |
-| **LeanIX** | Proprietary | Enterprise architecture | ❌ | Portfolio rationalization |
-| **SailPoint** | Proprietary | Identity governance | ❌ | Access certifications |
-| **Lumos** | Proprietary | SaaS + identity governance | ❌ | Unified management + access |
-| **SaaS Security Posture** | MIT | Shadow IT + spend | ✅ | Zero-cost SaaS visibility |
-| **Aperio** | MIT | SSPM + SIEM integration | ✅ | Security-native SaaS posture |
-| **midPoint** | Apache 2.0 | Full IGA | ✅ | Open-source identity governance |
-| **Apache Syncope** | Apache 2.0 | IAM + IGA | ✅ | Centralized identity lifecycle |
-| **ElectricEye** | Apache 2.0 | Multi-cloud/SaaS posture | ✅ | Compliance auditing |
+| Solution | Deployment Type | Primary Domain | Shadow IT & AI Discovery | License & Spend Optimization | Automated Deprovisioning | Compliance & RBAC Audit |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
+| **Atlassian Enterprise** | Commercial Hosted | Ecosystem Governance | ❌ | ⚠️ (Atlassian only) | ✅ | ✅ |
+| **LeanIX (SAP)** | Commercial Hosted | Enterprise Architecture | ✅ | ✅ | ❌ | ✅ |
+| **SailPoint** | Commercial / Hybrid | Identity Governance (IGA) | ⚠️ (Via Identity) | ❌ | ✅ | ✅ |
+| **Snow Software** | Commercial Hosted | Software Asset Mgmt (SAM) | ✅ | ✅ | ⚠️ | ✅ |
+| **BetterCloud** | Commercial Hosted | SaaS Ops & Automation | ✅ | ✅ | ✅ | ✅ |
+| **Lumos** | Commercial Hosted | IGA + App Store | ✅ | ✅ | ✅ | ✅ |
+| **Torii** | Commercial Hosted | SaaS Management (SMP) | ✅ | ✅ | ✅ | ✅ |
+| **CoreView** | Commercial Hosted | M365 Governance | ✅ (M365) | ✅ (M365) | ✅ | ✅ |
+| **Zylo** | Commercial Hosted | Spend Optimization | ✅ | ✅ | ⚠️ | ✅ |
+| **Zluri** | Commercial Hosted | SMP + Shadow AI | ✅ | ✅ | ✅ | ✅ |
+| **Keycloak** | Open-Source Self-Hosted | Identity & Access (IAM) | ❌ | ❌ | ✅ | ✅ |
+| **Authentik** | Open-Source Self-Hosted | IdP & SSO Gateway | ❌ | ❌ | ✅ | ✅ |
+| **Teleport** | Open-Source Self-Hosted | Zero-Trust Access | ❌ | ❌ | ✅ | ✅ |
+| **Steampipe** | Open-Source Self-Hosted | Multi-SaaS SQL Auditing | ✅ | ⚠️ (Via queries) | ❌ | ✅ |
+| **CloudQuery** | Open-Source Self-Hosted | Cloud & SaaS Asset ELT | ✅ | ⚠️ (Via analytics) | ❌ | ✅ |
+| **ElectricEye** | Open-Source Self-Hosted | SSPM Posture CLI | ✅ | ❌ | ❌ | ✅ |
+| **Evolveum midPoint**| Open-Source Self-Hosted | Identity Governance (IGA) | ❌ | ❌ | ✅ | ✅ |
+| **Apache Syncope** | Open-Source Self-Hosted | IAM & IGA Platform | ❌ | ❌ | ✅ | ✅ |
+| **Aperio** | Open-Source Self-Hosted | SSPM & OAuth Auditing | ✅ | ❌ | ❌ | ✅ |
+| **SaaS Security Posture**| Open-Source Self-Hosted| Cost Rationalization | ✅ | ✅ | ❌ | ⚠️ |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enterprise-SAAS-Governance&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enterprise-SAAS-Governance&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for visiting this guide! 🙏
+
+If you found this curated Enterprise SaaS Governance repository helpful:
+- ⭐ **Star** this repository to help other IT, FinOps, and cybersecurity teams discover it!
+- 🍴 **Fork** it to build your internal enterprise tooling evaluation matrix.
+- 📢 **Share** it with your engineering colleagues on LinkedIn, Reddit, or X/Twitter.
+
+If you would like to sponsor ongoing open-source curation and research:
+
+<a href="https://github.com/sponsors/ishandutta2007" target="_blank">
+  <img src="https://img.shields.io/badge/Sponsor%20%2F%20Buy%20Me%20A%20Coffee-ishandutta2007-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+</a>
+
+Or visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) directly. Thank you for your generosity! ☕✨
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Enterprise SaaS Governance tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! If you would like to submit a new SaaS governance solution, identity security tool, or open-source posture auditor:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. Fork this repository.
+2. Create your feature branch (`git checkout -b feature/add-new-governance-tool`).
+3. Add the project with required details (pricing/free tier limits, company valuation/scale, or GitHub star count badges).
+4. Commit your changes (`git commit -m "docs: add new SaaS governance solution"`).
+5. Push to the branch (`git push origin feature/add-new-governance-tool`).
+6. Open a Pull Request.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
+Please ensure all submissions adhere to standard markdown formatting and link to active, reputable repositories or vendor portals.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository is licensed under the [Creative Commons Zero v1.0 Universal (CC0-1.0)](LICENSE) Public Domain Dedication. All listed commercial products and open-source software retain their respective trademarks, copyrights, and licenses.
