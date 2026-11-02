@@ -1,12 +1,15 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Enterprise SaaS Governance Banner" width="100%" />
+</p>
+
 # 🌐 Awesome Enterprise SaaS Governance 🛡️
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-<a href="https://github.com/ishandutta2007/Awesome-Enterprise-SAAS-Governance"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-> **A curated, SEO-optimized list of top Enterprise SaaS Governance platforms, SaaS Management Platforms (SMP), SaaS Security Posture Management (SSPM), and Identity Governance & Administration (IGA) solutions — featuring both leading commercial hosted vendors and open-source alternatives for SaaS discovery, shadow IT detection, spend optimization, license reclamation, and automated compliance.** 📊🔐
+> **A curated, SEO-optimized guide to top Enterprise SaaS Governance platforms, SaaS Management Platforms (SMP), SaaS Security Posture Management (SSPM), and Identity Governance & Administration (IGA) solutions — featuring both leading commercial hosted vendors and open-source alternatives for continuous SaaS discovery, shadow IT detection, spend optimization, license reclamation, and automated compliance.** 📊🔐✨
 >
 > 🌟 *Star this repository to stay up-to-date with emerging tools in SaaS governance and security!* 🌟
 
@@ -30,10 +33,10 @@
 The global **SaaS Management Platform (SMP) and SaaS Governance** market is estimated at **$1.8B to $2.5B** in 2024 and is projected to surpass **$7.5B by 2032**, expanding at a robust **CAGR of ~16.5%**, propelled by explosive multi-SaaS sprawling, hybrid workforces, and autonomous shadow AI adoption. According to Gartner, organizations actively waste 25% to 30% of their annual SaaS spend on unused, underutilized, or forgotten subscriptions, while unaware of up to 50% of SaaS and AI integrations operating across their estates.
 
 The sector remains **moderately fragmented** rather than a winner-take-all monopoly:
-- **Enterprise SAM & Cloud Heavyweights** (*Flexera/Snow, SAP LeanIX*) address full software lifecycle, hybrid enterprise architecture, and enterprise asset compliance.
-- **Dedicated SaaS Management Platforms (SMP)** (*Torii, Zylo, BetterCloud, Zluri*) concentrate primarily on continuous shadow IT discovery, spend optimization, FinOps license harvesting, and automated onboarding/offboarding workflows.
-- **Identity & Access Governance (IGA)** (*SailPoint, Lumos*) enforce strict identity entitlement boundaries, role-based access control (RBAC), and recurring access certifications.
-- **Open-Source Innovations** (*Keycloak, Authentik, Teleport, OPA, Steampipe, CloudQuery*) allow cost-conscious engineering teams to self-host posture audits, asset inventories, and unified IAM/RBAC federation.
+- 🏢 **Enterprise SAM & Cloud Heavyweights** (*Flexera/Snow, SAP LeanIX*) address full software lifecycle, hybrid enterprise architecture, and enterprise asset compliance.
+- ⚡ **Dedicated SaaS Management Platforms (SMP)** (*Torii, Zylo, BetterCloud, Zluri*) concentrate primarily on continuous shadow IT discovery, spend optimization, FinOps license harvesting, and automated onboarding/offboarding workflows.
+- 🛡️ **Identity & Access Governance (IGA)** (*SailPoint, Lumos*) enforce strict identity entitlement boundaries, role-based access control (RBAC), and recurring access certifications.
+- 🔓 **Open-Source Innovations** (*Keycloak, Authentik, Teleport, OPA, Steampipe, CloudQuery*) allow cost-conscious engineering teams to self-host posture audits, asset inventories, and unified IAM/RBAC federation.
 
 ---
 
@@ -115,11 +118,11 @@ Self-hosted, community-maintained SaaS governance, identity lifecycle, cloud ass
 
 ## 💖 Support
 
-Thank you for visiting this guide! 🙏
+Thank you so much for visiting and utilizing this guide! 🙏
 
-If you found this curated Enterprise SaaS Governance repository helpful:
+If you found this curated Enterprise SaaS Governance repository helpful to your organization, engineering workflows, or research:
 - ⭐ **Star** this repository to help other IT, FinOps, and cybersecurity teams discover it!
-- 🍴 **Fork** it to build your internal enterprise tooling evaluation matrix.
+- 🍴 **Fork** it to build and customize your own internal enterprise tooling evaluation matrix.
 - 📢 **Share** it with your engineering colleagues on LinkedIn, Reddit, or X/Twitter.
 
 If you would like to sponsor ongoing open-source curation and research:
@@ -128,7 +131,7 @@ If you would like to sponsor ongoing open-source curation and research:
   <img src="https://img.shields.io/badge/Sponsor%20%2F%20Buy%20Me%20A%20Coffee-ishandutta2007-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
 </a>
 
-Or visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) directly. Thank you for your generosity! ☕✨
+Or visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) directly. Thank you for your generosity and support! ☕✨
 
 ---
 
